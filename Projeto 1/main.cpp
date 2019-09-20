@@ -11,7 +11,9 @@ int main() {
         return 0;
     }
 
-    graph.show();
+    graph.show_vertices();
+    graph.show_cliques();
+    graph.coefGraph();
 
     return 0;
 }
